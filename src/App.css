@@ -4,8 +4,7 @@
 }
 html body {
   /* background-color: rgb(243, 243, 243); */
-  scroll-behavior: smooth;
-  transition: 0.4s;
+  font-family: "Nunito" sans-serif;
 }
 #logo {
   height: 10vmin;
@@ -62,7 +61,7 @@ button {
   color: #fff;
   border: none;
 }
-btn-1:hover{
+btn-1:hover {
   background-color: rgb(206, 69, 69);
   box-shadow: 3px 3px 5px rgb(250, 210, 210);
 }
@@ -115,10 +114,10 @@ btn-1:hover{
   margin-top: -20px;
   margin-bottom: 20px;
 }
-.fa-angle-double-down{
+.fa-angle-double-down {
   font-size: xx-large;
   margin-top: 15vh;
-  color:rgb(170, 55, 55) ;
+  color: rgb(170, 55, 55);
 }
 .copy {
   margin-top: 50px;
@@ -127,12 +126,12 @@ btn-1:hover{
   margin-bottom: 30px;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
-color: rgb(10, 10, 10);
+a:hover {
+  color: rgb(10, 10, 10);
 }
 .footer {
   margin-top: 70vh;
@@ -157,42 +156,41 @@ color: rgb(10, 10, 10);
   }
 }
  */
- 
-  input{
-    float: right;
-  
-  }
-  .adform{
-    font-family: "Nunito", sans-serif;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 10vh;
-  }
-  #adform{
-    font-family: "Nunito", sans-serif;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 15px;
-  }
- form{
-   text-align: center;
-   font-family: "Nunito", sans-serif;
- }
- #adHead{
-   margin-top: 20vh;
+
+input {
+  float: right;
+}
+.adform {
+  font-family: "Nunito", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+#adform {
+  font-family: "Nunito", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+form {
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
- .display-2{
-   color: rgb(92, 59, 59);;
-   font-family: "Nunito", sans-serif;
-   padding-top: 35vh;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
- }
+#adHead {
+  margin-top: 20vh;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+.display-2 {
+  color: rgb(92, 59, 59);
+  font-family: "Nunito", sans-serif;
+  padding-top: 35vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
 .offcanvas-header {
   display: none;
@@ -203,7 +201,7 @@ color: rgb(10, 10, 10);
 }
 nav {
   padding: 10px;
-  font-family:"Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .navbar-brand {
   margin-left: 1rem;
@@ -214,7 +212,7 @@ nav {
   color: rgb(163, 47, 47);
 }
 .nav-link {
-  font-family:"Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(17, 17, 17);
   font-size: large;
 }

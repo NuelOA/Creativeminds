@@ -27,7 +27,7 @@ class Navbar extends React.Component{
        <>
          
 <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-  <a class="navbar-brand" href="/#"><img id="logo"src={Logo}/></a>
+  <a class="navbar-brand" href="/"><img id="logo"src={Logo}/></a>
   <button class="navbar-toggler" type="button" data-trigger="#main_nav">
     <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
   </button>
@@ -37,7 +37,7 @@ class Navbar extends React.Component{
       <a href="/#"><h5 class="py-2 text-white"><img id="logo"src={Logo}/></h5></a>
     </div>
     <ul class="navbar-nav">
-      <li class="nav-item active"> <a class="nav-link" href="/#">Home </a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="/">Home </a> </li>
       <li class="nav-item"><Link class="nav-link" to="/Content"> About </Link></li>
       <li class="nav-item"><a class="nav-link" href="/#Programs"> Programs </a></li>
       <li class="nav-item"><Link class="nav-link" to="/Admission"> Admission </Link></li>

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from '../src/Components/Navbar'
-import Home from './Components/Main'
+import Main from './Components/Main'
 import Content from './Components/Content'
 import Footer from './Components/Footer'
 import Admission from './Components/Admission'
@@ -19,9 +19,10 @@ function App() {
 
 
         <Switch>
-       <Route exact path="/"component={Home} />
-       <Route path="/Content"component={Content} />
+       <Route exact path="/"component={Main} />
        <Route path="/Admission" component={Admission}/>
+       <Route path="/Content"component={Content} />
+     
         </Switch>
 
        

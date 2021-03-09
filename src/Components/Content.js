@@ -57,6 +57,7 @@ class Content extends React.Component{
 
 
                      <div class="col-md-4">
+                     <Link to="/Admission">
                       <div class="card">
                           <img id="prog1"src={Toddler}/>
                           <br />
@@ -65,6 +66,7 @@ class Content extends React.Component{
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
                       </div>
+                      </Link>
                      </div>
 
 
@@ -72,6 +74,7 @@ class Content extends React.Component{
 
 
                      <div class="col-md-4">
+                     <Link to="/Admission">
                       <div class="card">
                           <img id="prog1"src={Kindergarten}/>
                           <br />
@@ -80,6 +83,7 @@ class Content extends React.Component{
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
                       </div>
+                      </Link>
                      </div>
                  </div>
                  </div>
