@@ -14,7 +14,6 @@ class Footer extends React.Component{
                  <small><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;example@gmail.com</small><br />
                  <small><i class="fa fa-phone" aria-hidden="true"></i> +233 568 5524 528</small> <br />
                  <small><i class="fa fa-map-marker" aria-hidden="true"></i> Location </small>
-                
                  </div>
 
                      

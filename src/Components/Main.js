@@ -13,13 +13,17 @@ class Home extends React.Component{
         return(
             <>
             <FadeIn>
+              {/* <div className="admit">
+                <marquee><i class="fa fa-star"></i>Admissions in progress<i class="fa fa-star"></i></marquee>
+              </div> */}
              <header className="App-header">
         <div class="container-fluid">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1 id="lndintro">Creative Minds <br />
-              Preschool</h1>
+              <h1 id="lndintro"><b>Creative Minds <br />
+              Preschoo</b>l</h1>
+              <br />
              <span id="caption"><span id="infant"><i class="fa fa-check-circle"></i>&nbsp;Infant</span>&nbsp;&nbsp;
               <span id="toddler"><i class="fa fa-check-circle"></i>&nbsp;Toddler</span>&nbsp;&nbsp;
                <span id="preschool"><i class="fa fa-check-circle"></i>&nbsp;Preschool</span> <br /> <span id="kindergarten"><i class="fa fa-check-circle"></i>&nbsp;Kindergarten</span> </span>

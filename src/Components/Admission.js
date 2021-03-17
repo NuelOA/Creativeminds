@@ -1,6 +1,7 @@
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import Logo from '../Images/logo.png'
+import Admission from '../Images/undraw_education.svg'
 import FadeIn from 'react-fade-in';
 // const axios = require('axios').default;
 
@@ -69,7 +70,8 @@ class Admissions extends React.Component{
                     <header className="App-header">
                     <div class="container-fluid">
                             <div class="container">
-                          <h1 class="display-2">Admissions</h1>
+                          <h1 class="display-2"> <img id="admilogo" src={Admission} /><br />Admissions</h1>
+                          
                           <p id="adform">Select a program of your choice in the form below and fill the form for the program selected 
                            to apply. We will get back to you shortly. Or call any of our numbers below for assistance or admission
                          
@@ -87,8 +89,8 @@ class Admissions extends React.Component{
                              <div id="adHead">
                   <form id="admission-form"method="POST"action="https://formspree.io/f/xvovjnbq"
                   enctype="multipart/form-data">
-                         <img id="logo" src={Logo} />
-                         <h1>Admission Form</h1>
+                         {/* <img id="logo" src={Logo} /> */}
+                         <h1 id="adminformhead">Creative Minds Preschool<br />Admission Form</h1>
 
                          
                            <div class="adform">
@@ -99,6 +101,7 @@ class Admissions extends React.Component{
                        <div class="col">
                      <input type="text" name="lastName"class="form-control" placeholder="Last name"required/>
                      </div>
+                     
                           </div>
                              
 
@@ -112,7 +115,9 @@ class Admissions extends React.Component{
                     <input type="number"name="number" class="form-control" placeholder="Phone Number"required/>
                     </div>
                 </div>
-                  
+                    
+
+                    
                    
                    <div class="adform"></div>
 
