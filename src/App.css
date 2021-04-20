@@ -2,6 +2,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 html body {
   /* background-color: rgb(243, 243, 243); */
   font-family: "Nunito" sans-serif;
@@ -9,37 +10,57 @@ html body {
 #logo {
   height: 10vmin;
 }
+#map {
+  margin-top: 3em;
+}
+label {
+  color: #fff;
+}
+#adminformhead {
+  color: #fff;
+  font-size: 8vmin;
+  margin-top: 5vmin;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
 #lndbanner {
+  position: relative;
   margin-top: 150px;
   height: 65vmin;
 }
 #lndintro {
+  position: relative;
   margin-top: 150px;
-  color: rgb(99, 65, 65);
+  color: rgb(238, 238, 238);
   font-weight: bolder;
-  font-family: "Nunito", sans-serif;
-  font-size: 12vmin;
+  font-family: "Fredoka One", cursive;
+  /* font-family: "Nunito", sans-serif; */
+  font-size: 11vmin;
 }
 #caption {
-  font-family: sans-serif;
+  font-family: "Gloria Hallelujah", cursive;
   font-size: 4vmin;
   text-transform: uppercase;
+  position: relative;
 }
 #infant {
-  color: rgb(14, 91, 163);
-  font-family: sans-serif;
+  color: rgb(7, 53, 95);
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
 }
 #preschool {
   color: rgb(225, 131, 8);
-  font-family: sans-serif;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
 }
 #toddler {
-  color: rgb(145, 57, 57);
-  font-family: sans-serif;
+  color: rgb(187, 58, 58);
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
 }
 #kindergarten {
-  color: rgb(36, 140, 76);
-  font-family: sans-serif;
+  color: rgb(26, 128, 65);
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -51,17 +72,102 @@ html body {
   color: #fff;
   width: 100%;
 }
-
-.App-header {
-  background-color: rgba(255, 214, 205, 0.933);
+.App-header2 {
+  background-image: url("/src/Images/IMG_4348.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 100px;
+  mix-blend-mode: darken;
   min-height: 100vh;
   width: 100%;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.rotate {
+  transition: 5s;
+  animation: rotation 2s infinite linear;
+  transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-envelope,
+.fa-mobile {
+  font-size: larger;
+}
+iframe {
+  width: 100%;
+  height: 30em;
+  border: 0;
+  allowfullscreen: "";
+  loading: fast;
+}
+.rotate2 {
+  transition: 5s;
+  animation: rotation1 2s infinite backwards;
+  transform-origin: 100% 0%;
+}
+@keyframes rotation1 {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.App-header2:before {
+  opacity: 0.9;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(41, 25, 25, 0.926);
+}
+
+.App-header {
+  background-image: url("Images/IMG_4340.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  mix-blend-mode: darken;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-header:before {
+  opacity: 0.9;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(41, 25, 25, 0.926);
+}
 button {
+  position: relative;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   background-color: rgb(192, 55, 55);
   color: #fff;
   border: none;
@@ -71,10 +177,12 @@ btn-1:hover {
   box-shadow: 3px 3px 5px rgb(250, 210, 210);
 }
 .display-5 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 #admilogo {
+  position: relative;
   height: 30vmin;
   margin-bottom: 19px;
 }
@@ -86,27 +194,113 @@ btn-1:hover {
   text-align: center;
   margin-top: 30vh;
 }
-.card:hover {
+.card1:hover {
   padding-top: 30px;
   transition: 0.3s ease;
 }
-.card {
+.card2:hover {
+  padding-top: 30px;
+  transition: 0.3s ease;
+}
+.card3:hover {
+  padding-top: 30px;
+  transition: 0.3s ease;
+}
+#kids1 {
+  height: 10em;
+}
+
+.Imagecard2 {
   margin-top: 100px;
   border-radius: 15px;
   opacity: 0.9;
+  background-size: cover;
+  background-image: url("../src/Images/IMG_4341.jpg");
   background-color: rgb(255, 255, 255);
-  box-shadow: 2px 2px 5px rgba(213, 189, 189, 0.933);
+  box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
   border: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 10px 100px 10px;
+}
+.Imagecard3 {
+  margin-top: 100px;
+  border-radius: 15px;
+  opacity: 0.9;
+  background-size: cover;
+  background-image: url("../src/Images/IMG_4336.jpg");
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
+  border: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 10px 100px 10px;
+}
+
+.Imagecard {
+  margin-top: 100px;
+  border-radius: 15px;
+  opacity: 0.9;
+  background-size: cover;
+  background-image: url("../src/Images/IMG_4343.jpg");
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
+  border: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 10px 100px 10px;
+}
+
+.card2 {
+  margin-top: 100px;
+  border-radius: 15px;
+  opacity: 0.9;
+  background-color: rgb(255, 159, 34);
+  box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
+  border: none;
+  color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 50px 30px 50px 30px;
 }
 #prog1 {
-  height: 30vmin;
+  height: 26vmin;
+}
+.card1 {
+  background-color: rgb(11, 145, 208);
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  opacity: 0.9;
+  box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 30px 50px 30px;
+}
+.card3 {
+  background-color: rgb(10, 191, 79);
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  opacity: 0.9;
+  box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 30px 50px 30px;
 }
 .content1 {
-  background-color: rgba(255, 220, 212, 0.933);
+  background-color: rgba(255, 240, 236, 0.933);
   padding-top: 50px;
   padding-bottom: 180px;
   justify-content: center;
@@ -126,7 +320,16 @@ btn-1:hover {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+.btn-2 {
+  background-color: rgb(41, 25, 25);
+  border-radius: 100px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 .display-4 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 5vmin;
   margin-top: -20px;
   margin-bottom: 20px;
@@ -153,14 +356,14 @@ a:hover {
   color: rgb(10, 10, 10);
 }
 .footer {
-  margin-top: 70vh;
   padding: 100px 50px 100px 50px;
   color: #fff;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(14, 14, 14);
+  background-color: rgb(41, 25, 25);
   height: 100%;
+  width: 100%;
 }
 /* .App-link {
   color: #61dafb;
@@ -187,13 +390,20 @@ input {
   margin-top: 10vh;
 }
 #adform {
+  color: #fff;
+  position: relative;
   font-family: "Nunito", sans-serif;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 15px;
 }
+
 form {
+  padding: 40px 30px 40px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(211, 206, 206, 0.933);
+  background-color: rgb(175, 53, 53);
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
@@ -203,37 +413,63 @@ form {
   font-family: "Nunito", sans-serif;
 }
 .display-2 {
-  color: rgb(92, 59, 59);
-  font-family: "Nunito", sans-serif;
+  position: relative;
+  color: rgb(228, 226, 226);
+  font-family: "M PLUS Rounded 1c", sans-serif;
   padding-top: 25vh;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
 
+.display-3 {
+  position: relative;
+  color: rgb(37, 37, 37);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  padding-top: 25vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 .offcanvas-header {
   display: none;
 }
 .fa-bars {
-  color: rgb(175, 53, 53);
+  background-color: rgb(211, 211, 211);
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  color: rgb(31, 31, 31);
   font-size: larger;
 }
 nav {
   padding: 10px;
-  font-family: "Nunito", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
+/* #navtitle {
+  mix-blend-mode: difference;
+} */
 .navbar-brand {
   margin-left: 1rem;
   margin-top: 5px;
-  color: rgb(186, 69, 69);
+
+  color: rgb(247, 247, 247);
+  font-family: "Fredoka One", cursive;
 }
 .navbar-brand:hover {
-  color: rgb(163, 47, 47);
+  color: rgb(247, 247, 247);
 }
 .nav-link {
-  font-family: "Nunito", sans-serif;
-  color: rgb(17, 17, 17);
+  font-family: "Fredoka One", cursive;
+  color: rgb(247, 247, 247);
   font-size: large;
+  /* mix-blend-mode: difference; */
+}
+.fa-home,
+.fa-info,
+.fa-book,
+.fa-graduation-cap,
+.fa-phone {
+  visibility: hidden;
 }
 
 .nav-link:hover {
@@ -243,23 +479,54 @@ nav {
   height: 5vmin;
 }
 .scrolled {
-  background-color: white;
+  background-color: rgb(41, 25, 25);
   transition: 0.3s;
-  box-shadow: 1px 1px 7px rgb(204, 190, 190);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.282);
 }
 @media (max-width: 992px) {
   .offcanvas-header {
     display: block;
   }
+
+  .App-header:before {
+    opacity: 0.9;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(41, 25, 25, 0.926);
+  }
   #admilogo {
+    position: relative;
     height: 30vmin;
     margin-bottom: 19px;
   }
-  .card:hover {
+  .card2:hover {
     padding: 50px 30px 50px 30px;
   }
-  #adminformhead{
+  .card3:hover {
+    padding: 50px 30px 50px 30px;
+  }
+  .card1:hover {
+    padding: 50px 30px 50px 30px;
+  }
+  form {
+    padding: 40px 30px 40px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(177, 177, 177, 0.933);
+    background-color: rgb(141, 51, 51);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
+  #adminformhead {
+    color: #fff;
     margin-top: 5vmin;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+  label {
+    color: #fff;
   }
   #prog1 {
     height: 40vmin;
@@ -277,19 +544,24 @@ nav {
   }
   #lndintro {
     margin-top: 120px;
-    color: rgb(92, 59, 59);
+    color: rgb(238, 238, 238);
     font-weight: bolder;
-    font-family: "Nunito", sans-serif;
-    font-size: 12vmin;
+    font-family: "Fredoka One", cursive;
+    font-size: 11vmin;
   }
   .nav-link {
-    color: rgb(141, 51, 51);
-    font-size: x-large;
+    color: rgb(242, 238, 238);
+    font-size: 5.5vmin;
     font-weight: bolder;
+    font-family: "Fredoka One", cursive;
+    margin-bottom: 12px;
   }
   #lndbanner {
     margin-top: 30px;
     height: 62vmin;
+  }
+  .display-2 {
+    position: relative;
   }
   a {
     text-decoration: none;
@@ -312,12 +584,24 @@ nav {
     padding-left: 3rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: white;
+    background-color: rgb(41, 25, 25);
     transition: visibility 0.4s ease-out, -webkit-transform 0.2s ease-in-out;
   }
-  .navbar-collapse.show {
+  .btn-close {
+    background-color: rgb(255, 255, 255);
+    margin-right: 2em;
+    font-size: 1.5em;
+    float: right;
+  }
+
+  .fa {
     visibility: visible;
-    transform: translateX(-100%);
+  }
+
+  .navbar-collapse.show {
+    box-shadow: -190px 0px 0px rgba(0, 0, 0, 0.89);
+    visibility: visible;
+    transform: translateX(-90%);
     transition: 0.4s ease;
   }
 }
