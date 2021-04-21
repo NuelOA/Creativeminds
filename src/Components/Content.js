@@ -36,6 +36,7 @@ class Content extends React.Component{
 
                 <img class="rotate" src={Shape} />
                     <div class="container">
+                        
                     <h4 class="display-5"> About Us</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
@@ -43,6 +44,7 @@ class Content extends React.Component{
                         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
                          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                          <div class="container">
+                             
                     <div class="row">
                     <div class="col-sm-4 ">
              <div className="Imagecard">      
@@ -64,6 +66,9 @@ class Content extends React.Component{
 
              </div>
              </div>
+
+
+             
                 <br />
 
                     <a href="#location"><button class="btn-1">Find Us</button></a>
@@ -94,7 +99,7 @@ class Content extends React.Component{
                           <h2 id="infant">Infant</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2">Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
                       </div>
                       </Link>
                      </div>
@@ -109,7 +114,7 @@ class Content extends React.Component{
                           <h2 id="toddler">Toddler / Preschool</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2">Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
                       </div>
                       </Link>
                      </div>
@@ -127,7 +132,7 @@ class Content extends React.Component{
                           <h2 id="kindergarten">Kindergarten</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2">Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
                       </div>
                       </Link>
                      </div>

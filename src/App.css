@@ -27,6 +27,7 @@ label {
   margin-top: 150px;
   height: 65vmin;
 }
+
 #lndintro {
   position: relative;
   margin-top: 150px;
@@ -43,7 +44,7 @@ label {
   position: relative;
 }
 #infant {
-  color: rgb(7, 53, 95);
+  color: rgb(12, 100, 182);
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
@@ -58,7 +59,7 @@ label {
   font-weight: bolder;
 }
 #kindergarten {
-  color: rgb(26, 128, 65);
+  color: rgb(7, 146, 60);
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
@@ -172,6 +173,7 @@ button {
   color: #fff;
   border: none;
 }
+
 btn-1:hover {
   background-color: rgb(206, 69, 69);
   box-shadow: 3px 3px 5px rgb(250, 210, 210);
@@ -323,6 +325,7 @@ btn-1:hover {
 
 .btn-2 {
   background-color: rgb(41, 25, 25);
+  font-family: "M PLUS Rounded 1c", sans-serif;
   border-radius: 100px;
   padding: 10px 25px 10px 25px;
   margin-top: 30px;
