@@ -96,12 +96,12 @@ class Admissions extends React.Component{
                            <div class="adform">
                           <div class="row">
                           <div class="col">
-                            <label>First Name:</label>
-                      <input type="text" name="firstName"class="form-control" placeholder="First name" required/>
+                            {/* <label>First Name:</label> */}
+                      <input type="text" name="firstName"class="form-control" placeholder="First Name" required/>
                         </div>
                        <div class="col">
-                       <label>Last Name:</label>
-                     <input type="text" name="lastName"class="form-control" placeholder="Last name"required/>
+                       {/* <label>Last Name:</label> */}
+                     <input type="text" name="lastName"class="form-control" placeholder="Last Name"required/>
                      </div>
                      
                           </div>
@@ -111,11 +111,11 @@ class Admissions extends React.Component{
                          
                     <div class="row">
                     <div class="col">
-                    <label>Email:</label>
+                    {/* <label>Email:</label> */}
                     <input type="email" name="_replyto"class="form-control" placeholder="Email"required/>
                     </div>
                     <div class="col">
-                    <label>Phone Number:</label>
+                    {/* <label>Phone Number:</label> */}
                     <input type="number"name="number" class="form-control" placeholder="Phone Number"required/>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ class Footer extends React.Component{
                   <h4 class="display-5">Contact Us</h4> 
                   <hr />
                  <small> P.O.Box TN 1021 TESHIE <br /><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;creativemindspskuu@gmail.com </small><br />
-                 <small><i class="fa fa-mobile fa-flip-horizontal" aria-hidden="true"></i>&nbsp; +233 50 313 7274 | +233 24 325 4762 | 030 2909 363</small> <br />
+                 <small><i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i><i class="fa fa-mobile"></i>&nbsp; +233 50 313 7274 | +233 24 325 4762 | 030 2909 363</small> <br />
 
                  <br />
     

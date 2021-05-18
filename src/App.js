@@ -30,9 +30,12 @@ class App extends React.Component{
         </Switch>
         </Router>
 
-             <h2 class="display-3" id="location">Location</h2>
+             <h2 class="display-5" id="location"><center>Location</center></h2>
              <center>
-                            <hr id="hr1" />
+                            <hr id="hr1" /> 
+                            <div class="container">
+                            <p>Locate us with the map provided below, enroll your kids today and be pleased with the stunning acadamic performace.</p>
+                            </div>
                             </center>
             
         {/* <Map/> */}

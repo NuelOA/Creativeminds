@@ -7,8 +7,33 @@ html body {
   background-color: rgb(253, 228, 228);
   font-family: "Nunito" sans-serif;
 }
+/* 
+[data-component="slideshow"] .slide {
+  display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+} */
+
 #logo {
   height: 10vmin;
+}
+#show {
+  border: 11px double rgb(211, 144, 144);
+  height: 54vmin;
+  border-radius: 20px;
+}
+#show1 {
+  border: 11px double rgb(211, 144, 144);
+  height: 55vmin;
+  border-radius: 20px;
+}
+#show2 {
+  border: 11px double rgb(211, 144, 144);
+  height: 45vmin;
+  border-radius: 20px;
 }
 #map {
   margin-top: 5em;
@@ -31,7 +56,7 @@ label {
 #lndbanner {
   position: relative;
   margin-top: 150px;
-  height: 80vmin;
+  height: 75vmin;
   float: left;
   margin-left: -100px;
 }
@@ -41,7 +66,7 @@ label {
   /* opacity: 0.8; */
   font-weight: bolder;
   font-family: "Fredoka One", cursive;
-  font-size: 8vmin;
+  font-size: 9vmin;
   position: relative;
 }
 
@@ -89,7 +114,7 @@ label {
   width: 100%;
 }
 .App-header2 {
-  background-image: url("/src/Images/IMG_4348.jpg");
+  background-image: url("/src/Images/landingHead2.jpeg");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +124,7 @@ label {
   width: 100%;
   align-items: center;
   border-radius: 0 0 50% 50% / 50px;
-  /* border-bottom: 15px solid rgba(235, 138, 121, 0.844); */
+  border-bottom: 15px solid rgba(235, 138, 121, 0.844);
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -113,7 +138,9 @@ label {
   margin-bottom: 3em;
   border: 1px solid rgb(170, 44, 44);
 }
-
+.display-6 {
+  margin-top: 5px;
+}
 .fa-envelope,
 .fa-mobile {
   font-size: larger;
@@ -155,7 +182,7 @@ iframe {
   top: 0;
   bottom: 0;
   border-radius: 0 0 50% 50% / 50px;
-  background: rgba(220, 130, 114, 0.515);
+  background: rgba(80, 59, 56, 0.659);
 }
 
 .App-header {
@@ -203,6 +230,7 @@ btn-1:hover {
   font-family: "M PLUS Rounded 1c", sans-serif;
   margin-top: 100px;
   margin-bottom: 20px;
+  color: rgb(157, 105, 105);
 }
 #admilogo {
   position: relative;
@@ -255,7 +283,7 @@ btn-1:hover {
   --splattier: "M161 188.375C170 193.5 177.919 193.854 186 188.375C197.919 180.294 197.919 159.581 186 151.5C177.919 146.021 169.081 146.021 161 151.5C149.081 159.581 152 183.25 161 188.375ZM145.5 70.5C127 70.5 112 24.5202 89.5 42C77.6254 51.2251 94.3244 85.6756 87.5 92.5C81.0365 98.9635 61.5 85.5 53.5 112C45.5 138.5 74.5 143.25 74.5 154C74.5 164.751 36.6441 162.082 39.5 185.5C42 206 86.5365 194.537 93 201C100.5 213.5 52 251.495 80 263.5C103 273.362 118 222.5 141 222.5C151.261 222.5 156.5 271.5 182.5 268C202.988 265.242 192.5 222.5 205.5 213.5C218.5 204.5 267.5 235 279.5 213.5C292.936 189.427 235.5 171 235.5 154C232.5 135.5 282.5 113.5 267.5 87.5C254.5 70.5 218 96 201.5 92.5C186 84 196 42 175.5 38C157.5 31.5 155.991 70.5 145.5 70.5ZM138 129C129.877 116.815 108.623 116.815 100.5 129C95.0844 137.123 95.0844 145.877 100.5 154C108.623 166.185 129.877 166.185 138 154C143.416 145.877 143.416 137.123 138 129Z";
   --splat: "M161 188.375C170 193.5 177.919 193.854 186 188.375C197.919 180.294 197.919 159.581 186 151.5C177.919 146.021 169.081 146.021 161 151.5C149.081 159.581 152 183.25 161 188.375ZM141.5 59.5C131.26 59.5 117.936 45.0628 100.5 52C81.6499 59.5 86.0351 73.5325 78.5 85.5C70 99 57.9171 96.3659 49.5 115C40.4659 135 58.5 138 58.5 154C58.5 170 41 166.5 46.5 185.5C52 204.5 72.5 196 81.6499 209C94.5 218.5 81.6499 233.418 100.5 241.5C122.657 251 121.5 232 141.5 237C154.5 237 154.5 257 180.5 251C203.99 245.579 193.5 230 211 222.5C226.5 212.5 236.5 226 255 206C272.51 187.07 247.5 177 249 154C253 132.5 273.5 120 258.5 94C245.5 77 235 78.5 211 75.5C190.5 68 200 53 177.5 49.5C153.5 43.5 161 59.5 141.5 59.5ZM138 129C129.877 116.815 108.623 116.815 100.5 129C95.0844 137.123 95.0844 145.877 100.5 154C108.623 166.185 129.877 166.185 138 154C143.416 145.877 143.416 137.123 138 129Z";
   height: 300px;
-  background-image: url("../src/Images/IMG_4340.jpg");
+  background-image: url("../src/Images/showcase3.jpg");
   background-size: cover;
   box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
   background-repeat: no-repeat;
@@ -299,7 +327,7 @@ btn-1:hover {
   border-radius: 20px;
   opacity: 0.9;
   background-size: cover;
-  background-image: url("../src/Images/IMG_4336.jpg");
+  background-image: url("../src/Images/showcase2.jpg");
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
   border: none;
@@ -315,7 +343,7 @@ btn-1:hover {
   border-radius: 20px;
   opacity: 0.9;
   background-size: cover;
-  background-image: url("../src/Images/IMG_4343.jpg");
+  background-image: url("../src/Images/showcase1.jpeg");
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
   border: none;
@@ -483,8 +511,8 @@ input {
 form {
   padding: 40px 30px 40px 30px;
   border-radius: 20px;
-  box-shadow: 5px 5px 8px rgba(228, 174, 174, 0.734);
-  /* background-color: rgb(106, 53, 53); */
+  box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
+  background-color: rgba(255, 255, 255, 0.707);
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
@@ -566,7 +594,21 @@ nav {
   .offcanvas-header {
     display: block;
   }
-
+  .App-header2 {
+    background-image: url("/src/Images/landingHead3.jpeg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    mix-blend-mode: darken;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    border-radius: 0 0 50% 50% / 50px;
+    border-bottom: 15px solid rgba(235, 138, 121, 0.844);
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
   .App-header:before {
     opacity: 0.9;
     content: "";
@@ -595,8 +637,8 @@ nav {
   form {
     padding: 40px 30px 40px 30px;
     border-radius: 20px;
-    box-shadow: 5px 5px 8px rgba(228, 174, 174, 0.734);
-    /* background-color: rgb(106, 53, 53); */
+    box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
+    background-color: rgba(255, 255, 255, 0.707);
     text-align: center;
     font-family: "Nunito", sans-serif;
   }
@@ -631,7 +673,7 @@ nav {
     /* opacity: 0.9; */
     font-weight: bolder;
     font-family: "Fredoka One", cursive;
-    font-size: 11vmin;
+    font-size: 11vmin auto;
   }
   #lndintro1 {
     margin-top: 130px;
@@ -639,7 +681,7 @@ nav {
     /* opacity: 0.8; */
     font-weight: bolder;
     font-family: "Fredoka One", cursive;
-    font-size: 8vmin;
+    font-size: 9vmin auto;
   }
   .nav-link {
     color: rgb(242, 238, 238);
@@ -676,6 +718,9 @@ nav {
     visibility: hidden;
     background: rgb(228, 133, 117);
     transition: visibility 0.4s ease-out, -webkit-transform 0.2s ease-in-out;
+  }
+  .fa-mobile {
+    display: none;
   }
   .btn-close {
     float: left;
