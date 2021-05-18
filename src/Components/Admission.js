@@ -88,10 +88,10 @@ class Admissions extends React.Component{
                            <div class="container">
                              <div id="adHead">
                   <form id="admission-form"method="POST"action="https://formspree.io/f/xvovjnbq"
-                  enctype="multipart/form-data" target="blank">
+                  enctype="multipart/form-data" >
                          {/* <img id="logo" src={Logo} /> */}
                          <h1 id="adminformhead">Get In Touch</h1>
-                         <p id="adform">Please make sure your credentials are correct.</p>
+                         <p class="adform">Please make sure your credentials are correct before you submit</p>
                          
                            <div class="adform">
                           <div class="row">

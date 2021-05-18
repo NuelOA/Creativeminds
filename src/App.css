@@ -4,20 +4,26 @@
 }
 
 html body {
-  /* background-color: rgb(243, 243, 243); */
+  background-color: rgb(253, 228, 228);
   font-family: "Nunito" sans-serif;
 }
 #logo {
   height: 10vmin;
 }
 #map {
-  margin-top: 3em;
+  margin-top: 5em;
 }
 label {
+  color: rgb(54, 38, 38);
+}
+#emoji {
+  height: 1.5em;
+}
+#white {
   color: #fff;
 }
 #adminformhead {
-  color: #fff;
+  color: rgb(182, 119, 119);
   font-size: 8vmin;
   margin-top: 5vmin;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -25,18 +31,31 @@ label {
 #lndbanner {
   position: relative;
   margin-top: 150px;
-  height: 65vmin;
+  height: 80vmin;
+  float: left;
+  margin-left: -100px;
+}
+#lndintro1 {
+  margin-top: 150px;
+  color: rgb(255, 255, 255);
+  /* opacity: 0.8; */
+  font-weight: bolder;
+  font-family: "Fredoka One", cursive;
+  font-size: 8vmin;
+  position: relative;
 }
 
 #lndintro {
   position: relative;
   margin-top: 150px;
-  color: rgb(238, 238, 238);
+  color: rgb(255, 255, 255);
+  /* opacity: 0.9; */
   font-weight: bolder;
   font-family: "Fredoka One", cursive;
   /* font-family: "Nunito", sans-serif; */
-  font-size: 11vmin;
+  font-size: 10vmin;
 }
+
 #caption {
   font-family: "Gloria Hallelujah", cursive;
   font-size: 4vmin;
@@ -49,12 +68,12 @@ label {
   font-weight: bolder;
 }
 #preschool {
-  color: rgb(225, 131, 8);
+  color: rgb(255, 218, 71);
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
 #toddler {
-  color: rgb(187, 58, 58);
+  color: rgb(177, 62, 62);
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
@@ -63,11 +82,7 @@ label {
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 .admit {
   background-color: rgb(165, 52, 52);
   color: #fff;
@@ -83,6 +98,8 @@ label {
   min-height: 100vh;
   width: 100%;
   align-items: center;
+  border-radius: 0 0 50% 50% / 50px;
+  /* border-bottom: 15px solid rgba(235, 138, 121, 0.844); */
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -91,15 +108,12 @@ label {
   animation: rotation 2s infinite linear;
   transform-origin: 50% 50%;
 }
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+#hr1 {
+  width: 80px;
+  margin-bottom: 3em;
+  border: 1px solid rgb(170, 44, 44);
 }
+
 .fa-envelope,
 .fa-mobile {
   font-size: larger;
@@ -140,20 +154,25 @@ iframe {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(41, 25, 25, 0.926);
+  border-radius: 0 0 50% 50% / 50px;
+  background: rgba(220, 130, 114, 0.515);
 }
 
 .App-header {
-  background-image: url("Images/IMG_4340.jpg");
+  /* background-image: url("Images/IMG_4340.jpg"); */
   position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   padding-bottom: 100px;
-  mix-blend-mode: darken;
+  /* mix-blend-mode: darken; */
   min-height: 100vh;
   width: 100%;
   align-items: center;
   justify-content: center;
+  background: rgb(255, 235, 232);
+  border-radius: 0 0 50% 50% / 50px;
+  border-bottom: 15px solid rgb(248, 175, 162);
+  /* border-radius: 0 0 50% 50% / 50px;  */
   font-size: calc(10px + 2vmin);
 }
 .App-header:before {
@@ -164,12 +183,14 @@ iframe {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(41, 25, 25, 0.926);
+  background: rgb(220, 130, 114);
+  border-radius: 0 0 50% 50% / 50px;
 }
 button {
   position: relative;
   font-family: "M PLUS Rounded 1c", sans-serif;
   background-color: rgb(192, 55, 55);
+
   color: #fff;
   border: none;
 }
@@ -212,12 +233,12 @@ btn-1:hover {
   height: 10em;
 }
 
-.Imagecard2 {
+/* .Imagecard2 {
   margin-top: 100px;
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   background-size: cover;
-  background-image: url("../src/Images/IMG_4341.jpg");
+  background-image: url("../src/Images/IMG_4340.jpg");
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
   border: none;
@@ -226,10 +247,56 @@ btn-1:hover {
   align-items: center;
   text-align: center;
   padding: 100px 10px 100px 10px;
+} */
+
+.portrait {
+  margin-top: 30px;
+  --splatted: "M232.5 256C225 251 209.5 262.5 224 281.5C232.736 292.948 238.561 297.756 251 290.5C257 287 256.114 271.924 250 264.5C243.886 257.076 240 261 232.5 256ZM147 92.5C118.738 94.6708 118 17 93 44C68 71 123.543 76.5 108 101.5C90.5 115 70.81 98.3664 64 115C56.7766 132.643 91.1967 136.948 90.5 156C89.4406 184.974 19.1766 161.499 24.5 190C29.9178 219.006 78.6461 172.635 100 193C130.207 221.808 1 248.5 58.5 291.5C94.5576 318.465 114.991 206.551 140.5 211C183.5 218.5 134.5 294 186.5 279.5C207.5 273 174.638 224.658 196 204C223.117 177.777 275.916 253 291.5 218.5C311.375 174.5 228.698 194.565 224 160C219.553 127.282 291.5 123.5 267.5 87.5C238.5 57 247 125.5 196 105.5C147 92.5 229.5 13.5 173.5 2.5C140.5 2.49999 183.532 89.694 147 92.5ZM45 92.5C36.8766 80.3149 14.1234 75.3149 6.00001 87.5C0.584412 95.6234 2.00001 120.357 14.5 115C27.9606 109.231 36.8766 124.685 45 112.5C50.4156 104.377 50.4156 100.623 45 92.5Z";
+  --splattier: "M161 188.375C170 193.5 177.919 193.854 186 188.375C197.919 180.294 197.919 159.581 186 151.5C177.919 146.021 169.081 146.021 161 151.5C149.081 159.581 152 183.25 161 188.375ZM145.5 70.5C127 70.5 112 24.5202 89.5 42C77.6254 51.2251 94.3244 85.6756 87.5 92.5C81.0365 98.9635 61.5 85.5 53.5 112C45.5 138.5 74.5 143.25 74.5 154C74.5 164.751 36.6441 162.082 39.5 185.5C42 206 86.5365 194.537 93 201C100.5 213.5 52 251.495 80 263.5C103 273.362 118 222.5 141 222.5C151.261 222.5 156.5 271.5 182.5 268C202.988 265.242 192.5 222.5 205.5 213.5C218.5 204.5 267.5 235 279.5 213.5C292.936 189.427 235.5 171 235.5 154C232.5 135.5 282.5 113.5 267.5 87.5C254.5 70.5 218 96 201.5 92.5C186 84 196 42 175.5 38C157.5 31.5 155.991 70.5 145.5 70.5ZM138 129C129.877 116.815 108.623 116.815 100.5 129C95.0844 137.123 95.0844 145.877 100.5 154C108.623 166.185 129.877 166.185 138 154C143.416 145.877 143.416 137.123 138 129Z";
+  --splat: "M161 188.375C170 193.5 177.919 193.854 186 188.375C197.919 180.294 197.919 159.581 186 151.5C177.919 146.021 169.081 146.021 161 151.5C149.081 159.581 152 183.25 161 188.375ZM141.5 59.5C131.26 59.5 117.936 45.0628 100.5 52C81.6499 59.5 86.0351 73.5325 78.5 85.5C70 99 57.9171 96.3659 49.5 115C40.4659 135 58.5 138 58.5 154C58.5 170 41 166.5 46.5 185.5C52 204.5 72.5 196 81.6499 209C94.5 218.5 81.6499 233.418 100.5 241.5C122.657 251 121.5 232 141.5 237C154.5 237 154.5 257 180.5 251C203.99 245.579 193.5 230 211 222.5C226.5 212.5 236.5 226 255 206C272.51 187.07 247.5 177 249 154C253 132.5 273.5 120 258.5 94C245.5 77 235 78.5 211 75.5C190.5 68 200 53 177.5 49.5C153.5 43.5 161 59.5 141.5 59.5ZM138 129C129.877 116.815 108.623 116.815 100.5 129C95.0844 137.123 95.0844 145.877 100.5 154C108.623 166.185 129.877 166.185 138 154C143.416 145.877 143.416 137.123 138 129Z";
+  height: 300px;
+  background-image: url("../src/Images/IMG_4340.jpg");
+  background-size: cover;
+  box-shadow: 5px 5px 8px rgba(157, 157, 157, 0.933);
+  background-repeat: no-repeat;
+  width: 300px;
+  /* background: hsl(280, 80%, 70%); */
+  -webkit-clip-path: path(var(--clip, var(--splat)));
+  clip-path: path(var(--clip, var(--splat)));
+  transition: clip-path 0.2s, transform 0.2s;
+  transform: scale(var(--scale, 1)) rotate(var(--rotate, 0deg));
+  position: relative;
+}
+
+.portrait:hover {
+  --clip: var(--splattier);
+  --scale: 1.15;
+  --rotate: 15deg;
+}
+
+.portrait:active {
+  --clip: var(--splatted);
+  --scale: 0.85;
+  --rotate: -10deg;
+}
+
+.portrait:hover .portrait__img:nth-of-type(1),
+.portrait:hover .portrait__img:nth-of-type(3) {
+  display: none;
+}
+.portrait:hover .portrait__img:nth-of-type(2) {
+  display: block;
+}
+.portrait:active .portrait__img:nth-of-type(1),
+.portrait:active .portrait__img:nth-of-type(2) {
+  display: none;
+}
+.portrait:active .portrait__img:nth-of-type(3) {
+  display: block;
 }
 .Imagecard3 {
   margin-top: 100px;
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   background-size: cover;
   background-image: url("../src/Images/IMG_4336.jpg");
@@ -245,7 +312,7 @@ btn-1:hover {
 
 .Imagecard {
   margin-top: 100px;
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   background-size: cover;
   background-image: url("../src/Images/IMG_4343.jpg");
@@ -261,7 +328,7 @@ btn-1:hover {
 
 .card2 {
   margin-top: 100px;
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   background-color: rgb(255, 159, 34);
   box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
@@ -279,7 +346,7 @@ btn-1:hover {
   background-color: rgb(11, 145, 208);
   margin-top: 100px;
   color: rgb(255, 255, 255);
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
   border: none;
@@ -292,7 +359,7 @@ btn-1:hover {
   background-color: rgb(10, 191, 79);
   margin-top: 100px;
   color: rgb(255, 255, 255);
-  border-radius: 15px;
+  border-radius: 20px;
   opacity: 0.9;
   box-shadow: 5px 5px 8px rgba(226, 212, 212, 0.933);
   border: none;
@@ -302,7 +369,7 @@ btn-1:hover {
   padding: 50px 30px 50px 30px;
 }
 .content1 {
-  background-color: rgba(255, 240, 236, 0.933);
+  background-color: rgba(255, 245, 243, 0.933);
   padding-top: 50px;
   padding-bottom: 180px;
   justify-content: center;
@@ -348,8 +415,18 @@ btn-1:hover {
 #media {
   margin-bottom: 30px;
 }
+
+.marqbar {
+  background-color: rgb(209, 119, 103);
+  max-width: 100%;
+  position: relative;
+}
 marquee {
+  overflow: hidden;
   max-width: 80%;
+  z-index: 20px;
+  scroll-behavior: smooth;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -360,11 +437,11 @@ a:hover {
 }
 .footer {
   padding: 100px 50px 100px 50px;
-  color: #fff;
+  color: rgb(252, 244, 244);
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(41, 25, 25);
+  background-color: rgba(38, 25, 21, 0.967);
   height: 100%;
   width: 100%;
 }
@@ -386,14 +463,15 @@ input {
   float: right;
 }
 .adform {
+  color: rgb(54, 38, 38);
   font-family: "Nunito", sans-serif;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 #adform {
-  color: #fff;
+  color: rgb(248, 248, 248);
   position: relative;
   font-family: "Nunito", sans-serif;
   justify-content: center;
@@ -404,14 +482,14 @@ input {
 
 form {
   padding: 40px 30px 40px 30px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 8px rgba(211, 206, 206, 0.933);
-  background-color: rgb(175, 53, 53);
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px rgba(228, 174, 174, 0.734);
+  /* background-color: rgb(106, 53, 53); */
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
 #adHead {
-  margin-top: 20vh;
+  margin-top: 50vh;
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
@@ -438,28 +516,26 @@ form {
   display: none;
 }
 .fa-bars {
-  background-color: rgb(211, 211, 211);
+  background-color: #fff;
   padding: 5px 10px 5px 10px;
   border-radius: 3px;
-  color: rgb(31, 31, 31);
+  opacity: 0.6;
+  color: rgb(160, 78, 78);
   font-size: larger;
 }
 nav {
   padding: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
-/* #navtitle {
-  mix-blend-mode: difference;
-} */
+
 .navbar-brand {
   margin-left: 1rem;
   margin-top: 5px;
-
-  color: rgb(247, 247, 247);
+  color: #fff;
   font-family: "Fredoka One", cursive;
 }
 .navbar-brand:hover {
-  color: rgb(247, 247, 247);
+  color: #fff;
 }
 .nav-link {
   font-family: "Fredoka One", cursive;
@@ -482,7 +558,7 @@ nav {
   height: 5vmin;
 }
 .scrolled {
-  background-color: rgb(41, 25, 25);
+  background-color: rgb(220, 130, 114);
   transition: 0.3s;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.282);
 }
@@ -499,7 +575,8 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(41, 25, 25, 0.926);
+    border-radius: 0 0 60% 60% / 60px;
+    /* background: rgba(240, 175, 164, 0.987); */
   }
   #admilogo {
     position: relative;
@@ -517,22 +594,25 @@ nav {
   }
   form {
     padding: 40px 30px 40px 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 8px rgba(177, 177, 177, 0.933);
-    background-color: rgb(141, 51, 51);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(228, 174, 174, 0.734);
+    /* background-color: rgb(106, 53, 53); */
     text-align: center;
     font-family: "Nunito", sans-serif;
   }
   #adminformhead {
-    color: #fff;
+    color: rgb(182, 119, 119);
     margin-top: 5vmin;
     font-family: "M PLUS Rounded 1c", sans-serif;
   }
   label {
-    color: #fff;
+    color: rgb(49, 36, 36);
   }
   #prog1 {
     height: 40vmin;
+  }
+  #emoji {
+    height: 1.8em;
   }
   #logo {
     height: 15vmin;
@@ -546,11 +626,20 @@ nav {
     margin-top: 30px;
   }
   #lndintro {
-    margin-top: 120px;
-    color: rgb(238, 238, 238);
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    /* opacity: 0.9; */
     font-weight: bolder;
     font-family: "Fredoka One", cursive;
     font-size: 11vmin;
+  }
+  #lndintro1 {
+    margin-top: 130px;
+    color: rgb(255, 255, 255);
+    /* opacity: 0.8; */
+    font-weight: bolder;
+    font-family: "Fredoka One", cursive;
+    font-size: 8vmin;
   }
   .nav-link {
     color: rgb(242, 238, 238);
@@ -561,7 +650,9 @@ nav {
   }
   #lndbanner {
     margin-top: 30px;
-    height: 62vmin;
+    height: 66vmin;
+    float: left;
+    margin-left: -20px;
   }
   .display-2 {
     position: relative;
@@ -572,11 +663,7 @@ nav {
   a:hover {
     text-decoration: none;
   }
-  .btn-close {
-    float: right;
-    margin-right: 1rem;
-    margin-top: 20px;
-  }
+
   .navbar-collapse {
     position: fixed;
     top: 0;
@@ -587,14 +674,30 @@ nav {
     padding-left: 3rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: rgb(41, 25, 25);
+    background: rgb(228, 133, 117);
     transition: visibility 0.4s ease-out, -webkit-transform 0.2s ease-in-out;
   }
   .btn-close {
-    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 18px;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+    opacity: 0.5;
+    color: rgb(160, 78, 78);
     margin-right: 2em;
     font-size: 1.5em;
-    float: right;
+  }
+  .spacer {
+    margin-top: 80px;
+  }
+  .nav-link {
+    margin-left: -60px;
+    font-size: 25px;
+  }
+  #adHead {
+    margin-top: 40vh;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
   }
 
   .fa {

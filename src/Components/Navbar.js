@@ -12,6 +12,7 @@ class Navbar extends React.Component{
       $('body').toggleClass("offcanvas-active");
   });
   
+
   // close button 
   $(".btn-close").click(function(e){
       $(".navbar-collapse").removeClass("show");
@@ -34,10 +35,11 @@ class Navbar extends React.Component{
   </button>
   <div class="navbar-collapse justify-content-end" id="main_nav">
     <div class="offcanvas-header mt-3">  
-    <button class="btn-close float-right"> </button>
-      <a href="/"><h5 class="py-2 text-white"><img id="logo"src={Logo}/></h5></a>
+    <button class="btn-close"> </button>
+      <a href="/"><h5 class="py-2 text-white"></h5></a>
     </div>
     <ul class="navbar-nav">
+      <div class="spacer"></div>
       <li class="nav-item active"> <a class="nav-link" href="/"> <i class="fa fa-home "aria-hidden="true"></i> <span class="item-label">Home</span> </a> </li>
       <li class="nav-item"><a class="nav-link" href="/#About"> &nbsp;<i class="fa fa-info "aria-hidden="true"></i><span class="item-label"> &nbsp;About</span> </a></li>
       <li class="nav-item"><a class="nav-link" href="/#Programs"> <i class="fa fa-book "aria-hidden="true"></i><span class="item-label"> Programs</span></a></li>

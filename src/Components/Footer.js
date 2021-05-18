@@ -4,25 +4,30 @@ import FadeIn from 'react-fade-in';
 
 
 
-
-
-
 class Footer extends React.Component{
+    componentDidMount(){
+        let today = new Date();
+        let yyyy = today.getFullYear();
+        document.getElementById("year").innerHTML= yyyy;
+
+    };
     
+
      
     render(){
         return(
             <>
             <FadeIn>
                <div id="Contact" class="footer">
-                   <div id="media">
+                   {/* <div id="media">
                     
 
-      </div>
+      </div> */}
                   <h4 class="display-5">Contact Us</h4> 
                   <hr />
-                 <small><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;creativemindspskuu@gmail.com <br /> P.O.Box TN 1021 TESHIE</small><br />
-                 <small><i class="fa fa-mobile fa-flip-horizontal" aria-hidden="true"></i> +233 50 313 7274 | +233 24 325 4762 | 030 2909 363</small> <br />
+                 <small> P.O.Box TN 1021 TESHIE <br /><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;creativemindspskuu@gmail.com </small><br />
+                 <small><i class="fa fa-mobile fa-flip-horizontal" aria-hidden="true"></i>&nbsp; +233 50 313 7274 | +233 24 325 4762 | 030 2909 363</small> <br />
+
                  <br />
     
               
@@ -36,7 +41,7 @@ class Footer extends React.Component{
 
                          <hr />
                      <div class="copy">
-                 <small>&#169;Copyright 2021 All rights reserved</small><br />
+                 <small>&#169;Copyright <span id="year"></span> All rights reserved</small><br />
               
                  <small><img id="lfot"src={Logo}/> <b>Creative Minds Preschool</b></small>
                  </div>

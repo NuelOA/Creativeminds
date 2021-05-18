@@ -23,6 +23,7 @@ class Content extends React.Component{
     document.querySelector(".rotate").style.transform = 'rotate(' + current_rotation + 'deg)';
     });
     
+    
    }
 
     render(){
@@ -38,6 +39,9 @@ class Content extends React.Component{
                     <div class="container">
                         
                     <h4 class="display-5"> About Us</h4>
+                    <center>
+                      <hr id="hr1" />
+                      </center>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy 
                         text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -52,7 +56,7 @@ class Content extends React.Component{
              </div>
                 
              <div class="col-sm-4 ">
-             <div className="Imagecard2">   
+             <div className="portrait">   
                  </div>
              </div>
 
@@ -71,7 +75,7 @@ class Content extends React.Component{
              
                 <br />
 
-                    <a href="#location"><button class="btn-1">Find Us</button></a>
+                    <a href="#location"><button class="btn-1"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Find Us</button></a>
                 </div>
                 </div>
                 </div>
@@ -83,6 +87,9 @@ class Content extends React.Component{
                      <div class="container-fluid">
                          <div class="container">
              <h4 class="display-5">Our Programs</h4>
+                            <center>
+                            <hr id="hr1" />
+                            </center>
                       <p>Lorem Ipsum is simply dummy text  but also It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
                       but also It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with </p>
                       </div>
@@ -99,7 +106,7 @@ class Content extends React.Component{
                           <h2 id="infant">Infant</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for  <br /> admission</button></a>
                       </div>
                       </Link>
                      </div>
@@ -114,12 +121,10 @@ class Content extends React.Component{
                           <h2 id="toddler">Toddler / Preschool</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for <br /> admission</button></a>
                       </div>
                       </Link>
                      </div>
-
-
 
 
 
@@ -132,7 +137,7 @@ class Content extends React.Component{
                           <h2 id="kindergarten">Kindergarten</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for  <br /> admission</button></a>
                       </div>
                       </Link>
                      </div>
