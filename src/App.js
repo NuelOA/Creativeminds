@@ -17,7 +17,7 @@ class App extends React.Component{
   render() {
     return (
       <>
-     
+       
       <Router>
       <Navbar />
 
@@ -45,10 +45,12 @@ class App extends React.Component{
                      </div>
 
         <Footer />
-        
-
+          <div id="pop"></div>
+        <a href="https://api.whatsapp.com/send?phone=233560411541" class="whatsapp_float" target="_blank"><i class="fab fa-whatsapp whatsapp-icon" aria-hidden="true"></i></a>
       
-        
+       
+   
+
       </>
     )
   }

@@ -5,6 +5,7 @@ import Content from '../Components/Content'
 import Smile from '../Images/smiling.gif'
 import $ from 'jquery'
 
+
 class Home extends React.Component{
 
   
@@ -21,9 +22,7 @@ class Home extends React.Component{
             <FadeIn>
           
              
-               <div class="marqbar">
-              <marquee behavior='scroll' direction='left' scrollamount='3'>	&#9734; Admission in progress &#9734;</marquee>
-              </div>
+              
              <header className="App-header">
         <div class="container-fluid">
         <div class="container">
@@ -50,6 +49,8 @@ class Home extends React.Component{
 
         </div>
       </header>
+                
+ 
 
       <Content />
       </FadeIn>

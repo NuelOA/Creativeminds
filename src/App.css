@@ -2,6 +2,81 @@
   height: 40vmin;
   pointer-events: none;
 }
+#mdiv {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-top: 18px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 2em;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.mdiv {
+  height: 30px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: rgb(192, 55, 55);
+  transform: rotate(45deg);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.md {
+  height: 30px;
+  width: 2px;
+  cursor: pointer;
+  background-color: rgb(192, 55, 55);
+  transform: rotate(90deg);
+  z-index: 2;
+}
+#bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin-top: 7px;
+  background-color: rgb(192, 55, 55);
+}
+/*Whatsapp icon*/
+/* for desktop */
+.whatsapp_float:hover {
+  background-color: rgb(192, 55, 55);
+}
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgb(192, 55, 55);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px rgba(80, 58, 58, 0.227);
+  z-index: 100;
+}
+.fa-whatsapp {
+  color: white;
+}
+.whatsapp-icon {
+  margin-top: 14.5px;
+}
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
 
 html body {
   background-color: rgb(253, 228, 228);
@@ -23,18 +98,10 @@ html body {
 #show {
   border: 11px double rgb(211, 144, 144);
   height: 54vmin;
+  width: 80vmin;
   border-radius: 20px;
 }
-#show1 {
-  border: 11px double rgb(211, 144, 144);
-  height: 55vmin;
-  border-radius: 20px;
-}
-#show2 {
-  border: 11px double rgb(211, 144, 144);
-  height: 45vmin;
-  border-radius: 20px;
-}
+
 #map {
   margin-top: 5em;
 }
@@ -45,10 +112,10 @@ label {
   height: 1.5em;
 }
 #white {
-  color: #fff;
+  color: rgb(128, 76, 76);
 }
 #adminformhead {
-  color: rgb(182, 119, 119);
+  color: rgb(128, 76, 76);
   font-size: 8vmin;
   margin-top: 5vmin;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -62,23 +129,23 @@ label {
 }
 #lndintro1 {
   margin-top: 150px;
-  color: rgb(255, 255, 255);
+  color: rgb(128, 76, 76);
   /* opacity: 0.8; */
   font-weight: bolder;
-  font-family: "Fredoka One", cursive;
-  font-size: 9vmin;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 10vmin;
   position: relative;
 }
 
 #lndintro {
   position: relative;
   margin-top: 150px;
-  color: rgb(255, 255, 255);
+  color: rgb(128, 76, 76);
   /* opacity: 0.9; */
   font-weight: bolder;
-  font-family: "Fredoka One", cursive;
+  font-family: "Love Ya Like A Sister", cursive;
   /* font-family: "Nunito", sans-serif; */
-  font-size: 10vmin;
+  font-size: 12vmin;
 }
 
 #caption {
@@ -93,7 +160,7 @@ label {
   font-weight: bolder;
 }
 #preschool {
-  color: rgb(255, 218, 71);
+  color: rgb(248, 199, 0);
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
 }
@@ -124,7 +191,7 @@ label {
   width: 100%;
   align-items: center;
   border-radius: 0 0 50% 50% / 50px;
-  border-bottom: 15px solid rgba(235, 138, 121, 0.844);
+  border-bottom: 15px solid rgb(255, 207, 200);
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -145,6 +212,11 @@ label {
 .fa-mobile {
   font-size: larger;
 }
+.fa-whatsapp:hover {
+  color: white !important;
+  font-size: larger;
+}
+
 iframe {
   width: 100%;
   height: 30em;
@@ -182,7 +254,7 @@ iframe {
   top: 0;
   bottom: 0;
   border-radius: 0 0 50% 50% / 50px;
-  background: rgba(80, 59, 56, 0.659);
+  background: rgba(21, 18, 18, 0.741);
 }
 
 .App-header {
@@ -196,9 +268,9 @@ iframe {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background: rgb(255, 235, 232);
+  background: rgb(255, 242, 240);
   border-radius: 0 0 50% 50% / 50px;
-  border-bottom: 15px solid rgb(248, 175, 162);
+  border-bottom: 15px solid rgb(255, 207, 200);
   /* border-radius: 0 0 50% 50% / 50px;  */
   font-size: calc(10px + 2vmin);
 }
@@ -210,22 +282,17 @@ iframe {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgb(220, 130, 114);
+  background: rgb(255, 255, 255);
   border-radius: 0 0 50% 50% / 50px;
 }
 button {
   position: relative;
   font-family: "M PLUS Rounded 1c", sans-serif;
-  background-color: rgb(192, 55, 55);
-
+  background: none;
   color: #fff;
   border: none;
 }
 
-btn-1:hover {
-  background-color: rgb(206, 69, 69);
-  box-shadow: 3px 3px 5px rgb(250, 210, 210);
-}
 .display-5 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   margin-top: 100px;
@@ -412,14 +479,18 @@ btn-1:hover {
   transition: 0.3s;
 }
 .btn-1 {
+  border: 1.6px solid rgb(136, 82, 82);
   border-radius: 100px;
   padding: 10px 25px 10px 25px;
-  margin-top: 30px;
+  margin-top: 45px;
   margin-bottom: 10px;
+  color: rgb(128, 76, 76);
 }
 
 .btn-2 {
-  background-color: rgb(41, 25, 25);
+  background: none;
+  color: rgb(255, 239, 239);
+  border: 1.5px solid rgba(235, 242, 247, 0.967);
   font-family: "M PLUS Rounded 1c", sans-serif;
   border-radius: 100px;
   padding: 10px 25px 10px 25px;
@@ -435,7 +506,7 @@ btn-1:hover {
 .fa-angle-double-down {
   font-size: xx-large;
   margin-top: 15vh;
-  color: rgb(170, 55, 55);
+  color: rgb(255, 255, 255);
 }
 .copy {
   margin-top: 50px;
@@ -445,16 +516,15 @@ btn-1:hover {
 }
 
 .marqbar {
-  background-color: rgb(209, 119, 103);
+  background-color: rgba(31, 48, 61, 0.967);
   max-width: 100%;
-  position: relative;
 }
 marquee {
   overflow: hidden;
   max-width: 80%;
   z-index: 20px;
   scroll-behavior: smooth;
-  color: white;
+  color: rgb(253, 252, 252);
 }
 a {
   text-decoration: none;
@@ -469,7 +539,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(38, 25, 21, 0.967);
+  background-color: rgba(25, 38, 48, 0.967);
   height: 100%;
   width: 100%;
 }
@@ -499,7 +569,7 @@ input {
   margin-top: 5vh;
 }
 #adform {
-  color: rgb(248, 248, 248);
+  color: rgb(255, 255, 255);
   position: relative;
   font-family: "Nunito", sans-serif;
   justify-content: center;
@@ -512,7 +582,7 @@ form {
   padding: 40px 30px 40px 30px;
   border-radius: 20px;
   box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
-  background-color: rgba(255, 255, 255, 0.707);
+  background-color: rgba(255, 255, 255, 0.796);
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
@@ -523,8 +593,8 @@ form {
 }
 .display-2 {
   position: relative;
-  color: rgb(228, 226, 226);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: "Love Ya Like A Sister", cursive;
   padding-top: 25vh;
   justify-content: center;
   text-align: center;
@@ -544,11 +614,9 @@ form {
   display: none;
 }
 .fa-bars {
-  background-color: #fff;
   padding: 5px 10px 5px 10px;
   border-radius: 3px;
-  opacity: 0.6;
-  color: rgb(160, 78, 78);
+  color: rgb(128, 76, 76);
   font-size: larger;
 }
 nav {
@@ -559,15 +627,16 @@ nav {
 .navbar-brand {
   margin-left: 1rem;
   margin-top: 5px;
-  color: #fff;
+  color: rgb(128, 76, 76);
   font-family: "Fredoka One", cursive;
 }
 .navbar-brand:hover {
-  color: #fff;
+  color: rgb(128, 76, 76);
 }
 .nav-link {
-  font-family: "Fredoka One", cursive;
-  color: rgb(247, 247, 247);
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: bolder;
+  color: rgb(128, 76, 76);
   font-size: large;
   /* mix-blend-mode: difference; */
 }
@@ -585,14 +654,23 @@ nav {
 #lfot {
   height: 5vmin;
 }
+
 .scrolled {
-  background-color: rgb(220, 130, 114);
+  color: white;
+  background-color: rgb(255, 255, 255);
   transition: 0.3s;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.282);
 }
 @media (max-width: 992px) {
   .offcanvas-header {
     display: block;
+  }
+
+  #show {
+    border: 11px double rgb(211, 144, 144);
+    height: 54vmin;
+    width: 85vmin;
+    border-radius: 20px;
   }
   .App-header2 {
     background-image: url("/src/Images/landingHead3.jpeg");
@@ -605,7 +683,7 @@ nav {
     width: 100%;
     align-items: center;
     border-radius: 0 0 50% 50% / 50px;
-    border-bottom: 15px solid rgba(235, 138, 121, 0.844);
+    border-bottom: 15px solid rgb(255, 207, 200);
     justify-content: center;
     font-size: calc(10px + 2vmin);
   }
@@ -638,12 +716,12 @@ nav {
     padding: 40px 30px 40px 30px;
     border-radius: 20px;
     box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
-    background-color: rgba(255, 255, 255, 0.707);
+    background-color: rgba(252, 252, 252, 0.967);
     text-align: center;
     font-family: "Nunito", sans-serif;
   }
   #adminformhead {
-    color: rgb(182, 119, 119);
+    color: rgb(128, 76, 76);
     margin-top: 5vmin;
     font-family: "M PLUS Rounded 1c", sans-serif;
   }
@@ -663,31 +741,32 @@ nav {
     height: 5vmin;
   }
   .btn-1 {
+    background: none;
     border-radius: 100px;
     padding: 10px 25px 10px 25px;
-    margin-top: 30px;
+    margin-top: 40px;
   }
   #lndintro {
     margin-top: 150px;
-    color: rgb(255, 255, 255);
+    color: rgb(128, 76, 76);
     /* opacity: 0.9; */
     font-weight: bolder;
-    font-family: "Fredoka One", cursive;
-    font-size: 11vmin auto;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 11.5vmin;
   }
   #lndintro1 {
     margin-top: 130px;
-    color: rgb(255, 255, 255);
+    color: rgb(128, 76, 76);
     /* opacity: 0.8; */
     font-weight: bolder;
-    font-family: "Fredoka One", cursive;
-    font-size: 9vmin auto;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 9vmin;
   }
   .nav-link {
-    color: rgb(242, 238, 238);
-    font-size: 5.5vmin;
+    color: rgb(128, 76, 76);
+    font-size: 5.8vmin;
     font-weight: bolder;
-    font-family: "Fredoka One", cursive;
+    font-family: "Love Ya Like A Sister", cursive;
     margin-bottom: 12px;
   }
   #lndbanner {
@@ -698,6 +777,8 @@ nav {
   }
   .display-2 {
     position: relative;
+    font-family: "Love Ya Like A Sister", cursive;
+    color: rgb(255, 255, 255);
   }
   a {
     text-decoration: none;
@@ -706,6 +787,23 @@ nav {
     text-decoration: none;
   }
 
+  .whatsapp-icon {
+    margin-top: 17px;
+  }
+  .whatsapp_float {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(192, 55, 55);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgba(80, 58, 58, 0.227);
+    z-index: 100;
+  }
   .navbar-collapse {
     position: fixed;
     top: 0;
@@ -716,21 +814,20 @@ nav {
     padding-left: 3rem;
     overflow-y: auto;
     visibility: hidden;
-    background: rgb(228, 133, 117);
+    background: rgb(255, 255, 255);
     transition: visibility 0.4s ease-out, -webkit-transform 0.2s ease-in-out;
   }
   .fa-mobile {
     display: none;
   }
-  .btn-close {
+  .fa-times {
     float: left;
     margin-top: 18px;
     padding: 5px 10px 5px 10px;
     background-color: #fff;
-    opacity: 0.5;
-    color: rgb(160, 78, 78);
+    color: rgb(128, 76, 76) !important;
     margin-right: 2em;
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .spacer {
     margin-top: 80px;

@@ -14,7 +14,7 @@ class Navbar extends React.Component{
   
 
   // close button 
-  $(".btn-close").click(function(e){
+  $(".mdiv,.md, #mdiv").click(function(e){
       $(".navbar-collapse").removeClass("show");
       $("body").removeClass("offcanvas-active");
   }); 
@@ -31,20 +31,28 @@ class Navbar extends React.Component{
 <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
   <a class="navbar-brand" href="/"><img id="logo"src={Logo}/> &nbsp;<span id="navtitle">Creative Minds</span> </a>
   <button class="navbar-toggler" type="button" data-trigger="#main_nav">
-    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+    <span class="navbar-toggler-icon">
+      <span id="bar"></span>
+      <span id="bar"></span>
+      <span id="bar"></span>
+      </span>
   </button>
   <div class="navbar-collapse justify-content-end" id="main_nav">
     <div class="offcanvas-header mt-3">  
-    <button class="btn-close"> </button>
-      <a href="/"><h5 class="py-2 text-white"></h5></a>
+            <div id="mdiv">
+          <div class="mdiv">
+            <div class="md"></div>
+          </div>
+        </div>
+      <a href="/"><h5 class="py-2 "></h5></a>
     </div>
     <ul class="navbar-nav">
       <div class="spacer"></div>
       <li class="nav-item active"> <a class="nav-link" href="/"> <i class="fa fa-home "aria-hidden="true"></i> <span class="item-label">Home</span> </a> </li>
       <li class="nav-item"><a class="nav-link" href="/#About"> &nbsp;<i class="fa fa-info "aria-hidden="true"></i><span class="item-label"> &nbsp;About</span> </a></li>
       <li class="nav-item"><a class="nav-link" href="/#Programs"> <i class="fa fa-book "aria-hidden="true"></i><span class="item-label"> Programs</span></a></li>
-      <li class="nav-item"><Link class="nav-link" to="/Admission"> <i class="fa fa-graduation-cap "aria-hidden="true"></i><span class="item-label">Admission</span> </Link></li>
-      <li class="nav-item"><a class="nav-link" href="/#Contact"><i class="fa fa-phone fa-flip-horizontal"aria-hidden="true"></i><span class="item-label"> Contact Us</span> </a></li>
+      <li class="nav-item"><Link class="nav-link" to="/Admission"> <i class="fa fa-graduation-cap "aria-hidden="true"></i><span class="item-label"> Admission</span> </Link></li>
+      <li class="nav-item"><a class="nav-link" href="/#Contact"><i class="fa fa-phone fa-flip-horizontal"aria-hidden="true"></i><span class="item-label"> Contact </span> </a></li>
 
     
 

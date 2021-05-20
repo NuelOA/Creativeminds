@@ -9,6 +9,8 @@ import Shape3 from '../Images/shape3.png'
 import Showcase1 from '../Images/landingHeadmobile.jpeg'
 import Showcase2 from '../Images/showcase4.jpg'
 import Showcase3 from '../Images/showcase5.jpeg'
+import Showcase4 from '../Images/landingHead2.jpeg'
+import Showcase5 from '../Images/showcase3.jpg'
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
@@ -72,13 +74,29 @@ class Content extends React.Component{
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img id="show1"src={Showcase2} />
+            <img id="show"src={Showcase2} />
           </div>
        
         </div>
+
         <div className="each-fade">
           <div className="image-container">
-            <img id="show2" src={Showcase3} />
+            <img id="show"src={Showcase4} />
+          </div>
+       
+        </div>
+
+        
+        <div className="each-fade">
+          <div className="image-container">
+            <img id="show"src={Showcase5} />
+          </div>
+       
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+            <img id="show" src={Showcase3} />
           </div>
          
         </div>
@@ -96,6 +114,7 @@ class Content extends React.Component{
                     <div class="col-sm-4 ">
              <div className="Imagecard">    
                  </div>
+                 <br />
                  < p class="display-6" style={{color:'rgb(177, 62, 62)'}}>Class Hours</p>  
                 <p>Active class hours take place for students to improve acadamic performance</p>
              </div>
@@ -112,6 +131,7 @@ class Content extends React.Component{
              <div class="col-sm-4 ">
              <div className="Imagecard3">           
                  </div>
+                 <br/>
                  < p class="display-6" style={{color:'rgb(12, 100, 182)'}}>Class Rooms</p> 
                  <p>Our class rooms are designed for a good learning experience</p>
              </div>
@@ -155,7 +175,7 @@ class Content extends React.Component{
                           <h2 id="infant">Infant</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for  <br /> admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Enroll</button></a>
                       </div>
                       </Link>
                      </div>
@@ -170,7 +190,7 @@ class Content extends React.Component{
                           <h2 id="toddler">Toddler / Preschool</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for <br /> admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Enroll</button></a>
                       </div>
                       </Link>
                      </div>
@@ -186,7 +206,7 @@ class Content extends React.Component{
                           <h2 id="kindergarten">Kindergarten</h2>
                           <p>Lorem Ipsum is simply dummy text of 
                               the printing and typesetting industry. </p>
-                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Apply for  <br /> admission</button></a>
+                              <a href="#"><button class="btn-2"><i class="fa fa-paper-plane" aria-hidden="true"></i> &nbsp;Enroll</button></a>
                       </div>
                       </Link>
                      </div>
