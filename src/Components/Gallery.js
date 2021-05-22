@@ -33,7 +33,7 @@ const Gallery = () => {
 
                        
                        <div class="col-md-4">
-                       <img id="photos-style"src={Showcase3}/>
+                       <img id="photos"src={Showcase3}/>
                        </div>
                    </div>
 
