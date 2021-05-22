@@ -38,7 +38,7 @@ class Home extends React.Component{
               <span id="toddler"><i class="fa fa-check-circle"></i>&nbsp;Toddler</span>&nbsp;&nbsp;
                <span id="preschool"><i class="fa fa-check-circle"></i>&nbsp;Preschool</span> <br /> <span id="kindergarten"><i class="fa fa-check-circle"></i>&nbsp;Kindergarten</span> </span>
              <br />
-             <a href="/#Programs"><button class="btn-1"><i class="fa fa-list">&nbsp;</i>Programs</button></a>
+             <a href="/#Programs"><button class="btn"><i class="fa fa-list">&nbsp;</i>Programs</button></a>
             </div>
             
             <div class="col-md-6">

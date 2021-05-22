@@ -76,7 +76,7 @@ class Admissions extends React.Component{
                            to apply. We will get back to you shortly. Or call any of our numbers below for assistance or admission.
                          
                            <br />
-                           <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                           <a href="#adHead"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
                            </p>
                            </div>
                            </div>

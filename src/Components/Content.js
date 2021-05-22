@@ -8,7 +8,7 @@ import Shape from '../Images/shape2.png'
 import Shape3 from '../Images/shape3.png'
 import Showcase1 from '../Images/landingHeadmobile.jpeg'
 import Showcase2 from '../Images/showcase4.jpg'
-import Showcase3 from '../Images/showcase5.jpeg'
+import Showcase3 from '../Images/showcase1.jpeg'
 import Showcase4 from '../Images/landingHead2.jpeg'
 import Showcase5 from '../Images/showcase3.jpg'
 import { Fade } from 'react-slideshow-image';
@@ -86,8 +86,7 @@ class Content extends React.Component{
        
         </div>
 
-        
-        <div className="each-fade">
+ <div className="each-fade">
           <div className="image-container">
             <img id="show"src={Showcase5} />
           </div>

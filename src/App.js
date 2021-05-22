@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from '../src/Components/Navbar'
 import Home from './Components/Main'
 import Content from './Components/Content'
 import Footer from './Components/Footer'
 import Admission from './Components/Admission'
+import Gallery from './Components/Gallery'
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,7 @@ class App extends React.Component{
        <Route exact path="/"component={Home} />
        <Route path="/Admission"component={Admission}/>
        <Route path="/Content"component={Content} />
+       <Route path="/Gallery"component={Gallery} />
        
         </Switch>
         </Router>

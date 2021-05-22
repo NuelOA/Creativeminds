@@ -33,8 +33,8 @@ class Navbar extends React.Component{
   <button class="navbar-toggler" type="button" data-trigger="#main_nav">
     <span class="navbar-toggler-icon">
       <span id="bar"></span>
-      <span id="bar"></span>
-      <span id="bar"></span>
+      <span id="bar2"></span>
+      <span id="bar3"></span>
       </span>
   </button>
   <div class="navbar-collapse justify-content-end" id="main_nav">
@@ -52,6 +52,8 @@ class Navbar extends React.Component{
       <li class="nav-item"><a class="nav-link" href="/#About"> &nbsp;<i class="fa fa-info "aria-hidden="true"></i><span class="item-label"> &nbsp;About</span> </a></li>
       <li class="nav-item"><a class="nav-link" href="/#Programs"> <i class="fa fa-book "aria-hidden="true"></i><span class="item-label"> Programs</span></a></li>
       <li class="nav-item"><Link class="nav-link" to="/Admission"> <i class="fa fa-graduation-cap "aria-hidden="true"></i><span class="item-label"> Admission</span> </Link></li>
+      <li class="nav-item"><a class="nav-link" href="https://formspree.io/login"><i class="fa fa-user" aria-hidden="true"></i><span class="item-label"> Admin </span> </a></li>
+      <li class="nav-item"><a class="nav-link" href="/Gallery"><i class="fa fa-picture-o" aria-hidden="true"></i><span class="item-label"> Gallery </span> </a></li>
       <li class="nav-item"><a class="nav-link" href="/#Contact"><i class="fa fa-phone fa-flip-horizontal"aria-hidden="true"></i><span class="item-label"> Contact </span> </a></li>
 
     
