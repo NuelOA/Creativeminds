@@ -104,7 +104,7 @@
 }
 
 html body {
-  background-color: rgb(253, 228, 228);
+  background-color: rgb(255, 238, 238);
   font-family: "Nunito" sans-serif;
 }
 /* 
@@ -489,7 +489,7 @@ button {
   padding: 50px 30px 50px 30px;
 }
 .content1 {
-  background-color: rgba(255, 245, 243, 0.933);
+  background-color: rgba(255, 252, 252, 0.933);
   padding-top: 50px;
   padding-bottom: 180px;
   justify-content: center;
@@ -529,7 +529,7 @@ button {
   margin-bottom: 20px;
 }
 .fa-arrow-down {
-  color: rgb(213, 125, 125);
+  color: rgb(255, 255, 255);
   position: relative;
   margin-top: 4em;
   font-size: 2em;
@@ -652,7 +652,7 @@ form {
 }
 #gallery {
   position: relative;
-  color: rgb(213, 125, 125);
+  color: rgb(255, 255, 255);
   font-family: "Love Ya Like A Sister", cursive;
   padding-top: 40vh;
   justify-content: center;
