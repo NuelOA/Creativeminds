@@ -2,6 +2,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+#admin{
+  background-color: rgb(168, 70, 70);
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 100px;
+}
 
 #mdiv {
   width: 25px;
@@ -25,7 +32,7 @@
   color: #fff;
 }
 .mdiv {
-  height: 30px;
+  height: 25px;
   width: 2px;
   margin-left: 12px;
   background-color: rgb(192, 55, 55);
@@ -35,7 +42,7 @@
 }
 
 .md {
-  height: 30px;
+  height: 25px;
   width: 2px;
   cursor: pointer;
   background-color: rgb(192, 55, 55);
@@ -44,7 +51,7 @@
 }
 #bar {
   display: block;
-  width: 30px;
+  width: 20px;
   height: 2px;
   margin-top: 7px;
   background-color: rgb(192, 55, 55);
@@ -52,16 +59,16 @@
 
 #bar2 {
   display: block;
-  width: 25px;
+  width: 14px;
   height: 2px;
-  margin-top: 7px;
+  margin-top: 5px;
   background-color: rgb(192, 55, 55);
 }
 #bar3 {
   display: block;
-  width: 20px;
+  width: 10px;
   height: 2px;
-  margin-top: 7px;
+  margin-top: 5px;
   background-color: rgb(192, 55, 55);
 }
 /*Whatsapp icon*/
@@ -104,7 +111,7 @@
 }
 
 html body {
-  background-color: rgb(255, 238, 238);
+  background-color: rgb(255, 255, 255);
   font-family: "Nunito" sans-serif;
 }
 /* 
@@ -215,8 +222,9 @@ label {
   min-height: 100vh;
   width: 100%;
   align-items: center;
+  background: rgb(168, 70, 70);
+  box-shadow:3px 8px 15px rgba(211, 211, 211, 0.672);
   border-radius: 0 0 50% 50% / 50px;
-  border-bottom: 15px solid rgb(255, 207, 200);
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -226,9 +234,9 @@ label {
   transform-origin: 50% 50%;
 }
 #hr1 {
-  width: 80px;
-  margin-bottom: 3em;
-  border: 1px solid rgb(170, 44, 44);
+  width: 100px;
+  margin-bottom: 2em;
+  border: 1px solid rgb(233, 55, 55);
 }
 .display-6 {
   margin-top: 5px;
@@ -293,9 +301,10 @@ iframe {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background: rgb(255, 242, 240);
+    background:rgb(253, 214, 214);
+  box-shadow:3px 8px 15px rgba(211, 211, 211, 0.672);
   border-radius: 0 0 50% 50% / 50px;
-  border-bottom: 15px solid rgb(255, 207, 200);
+  border-bottom: 15px solid rgb(255, 255, 255);
   /* border-radius: 0 0 50% 50% / 50px;  */
   font-size: calc(10px + 2vmin);
 }
@@ -322,7 +331,10 @@ button {
   font-family: "M PLUS Rounded 1c", sans-serif;
   margin-top: 100px;
   margin-bottom: 20px;
-  color: rgb(157, 105, 105);
+  color: rgb(128, 76, 76);
+}
+#activities{
+  text-align: center;
 }
 #admilogo {
   position: relative;
@@ -334,7 +346,7 @@ button {
   align-items: center;
   flex-direction: column;
   font-family: "Nunito", sans-serif;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 30vh;
 }
 .card1:hover {
@@ -489,7 +501,7 @@ button {
   padding: 50px 30px 50px 30px;
 }
 .content1 {
-  background-color: rgba(255, 252, 252, 0.933);
+  background-color: rgba(203, 234, 250, 0.309);
   padding-top: 50px;
   padding-bottom: 180px;
   justify-content: center;
@@ -497,7 +509,7 @@ button {
   flex-direction: column;
   font-family: "Nunito", sans-serif;
   text-align: center;
-  margin-top: 50vh;
+  margin-top: 10vh;
 }
 .btn-1:hover {
   padding-left: 28px;
@@ -508,7 +520,7 @@ button {
   border-radius: 100px;
   padding: 10px 25px 10px 25px;
   margin-top: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   color: rgb(128, 76, 76);
 }
 
@@ -521,6 +533,7 @@ button {
   padding: 10px 25px 10px 25px;
   margin-top: 30px;
   margin-bottom: 10px;
+ 
 }
 .display-4 {
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -745,7 +758,7 @@ nav {
     width: 100%;
     align-items: center;
     border-radius: 0 0 50% 50% / 50px;
-    border-bottom: 15px solid rgb(255, 207, 200);
+    border-bottom: 15px solid rgb(55, 60, 73);
     justify-content: center;
     font-size: calc(10px + 2vmin);
   }
@@ -825,6 +838,8 @@ nav {
     border-radius: 100px;
     padding: 10px 25px 10px 25px;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
   }
   #lndintro {
     margin-top: 150px;
@@ -922,6 +937,12 @@ nav {
     text-align: center;
     font-family: "Nunito", sans-serif;
   }
+
+ #hr1{
+   width: 200px;
+   margin-top: -10px;
+   align-items: center;
+ }
 
   .fa {
     visibility: visible;
