@@ -18,6 +18,7 @@ class Footer extends React.Component {
         return (
             <>
                 <FadeIn>
+
                     <div id="Contact" class="footer">
                         {/* <div id="media">
                     
@@ -41,7 +42,7 @@ class Footer extends React.Component {
 
                         <hr />
                         <div class="copy">
-                            <small>&#169;Copyright <span id="year"></span> All rights reserved</small><br />
+                            <small>&#169; Copyright <span id="year"></span> All rights reserved</small><br />
 
                             <small><img id="lfot" src={Logo} /> <b>Creative Minds Preschool</b></small>
                             <i class="fa fa-twitter"></i>

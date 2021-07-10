@@ -37,7 +37,7 @@ class App extends React.Component {
         <center>
           <hr id="hr1" />
           <div class="container">
-            <p>Locate us with the map provided below, enroll your kids today and be pleased with the stunning acadamic performace.</p>
+            <p className="textfont">Locate us with the map provided below. Enroll your kids today and be pleased with the stunning acadamic performace.</p>
           </div>
         </center>
 

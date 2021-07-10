@@ -49,7 +49,7 @@ class Navbar extends React.Component {
             <ul class="navbar-nav">
               <div class="spacer"></div>
               <li class="nav-item active"> <a class="nav-link" href="/"> <i class="fa fa-home " aria-hidden="true"></i> <span class="item-label">Home</span> </a> </li>
-              <li class="nav-item"><a class="nav-link" href="/#About"> &nbsp;<i class="fa fa-info " aria-hidden="true"></i><span class="item-label"> &nbsp;About</span> </a></li>
+              <li class="nav-item"><Link class="nav-link" to="/About"> &nbsp;<i class="fa fa-info " aria-hidden="true"></i><span class="item-label"> &nbsp;About</span></Link></li>
               <li class="nav-item"><a class="nav-link" href="/#Programs"> <i class="fa fa-book " aria-hidden="true"></i><span class="item-label"> Programs</span></a></li>
               <li class="nav-item"><Link class="nav-link" to="/Admission"> <i class="fa fa-graduation-cap " aria-hidden="true"></i><span class="item-label"> Admission</span> </Link></li>
               {/* <li class="nav-item"><a class="nav-link" href="/Tour"><i class="fa fa-picture-o" aria-hidden="true"></i><span class="item-label"> Gallery </span> </a></li> */}

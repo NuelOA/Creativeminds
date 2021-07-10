@@ -7,59 +7,66 @@ import Showcase5 from '../Images/showcase3.jpg'
 import Showcase6 from '../Images/showcase5.jpeg'
 
 
-const Gallery = () => {
-    return (
-        <>
-            <header className="App-header2">
-                <div class="container-fluid">
-                    <h1 id="gallery">Gallery</h1>
-                </div>
-                <center>
-                    <a href="#photos"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
-                </center>
-            </header>
+class Gallery extends React.Component {
 
+    componentDidMount = () => {
+        window.scroll(0, 0);
+    }
+    render() {
+        return (
+            <>
 
-            <div class="photos-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img id="photos" src={Showcase1} />
-                        </div>
-
-                        <div class="col-md-4">
-                            <img id="photos-style" src={Showcase2} />
-                        </div>
-
-
-                        <div class="col-md-4">
-                            <img id="photos" src={Showcase3} />
-                        </div>
+                <header className="App-header2">
+                    <div class="container-fluid">
+                        <h3 id="gallery">Virtual Tour</h3>
                     </div>
+                    <center>
+                        <a href="#photos"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                    </center>
+                </header>
 
 
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img id="photos-style" src={Showcase4} />
+                <div class="photos-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img id="photos" src={Showcase1} />
+                            </div>
+
+                            <div class="col-md-4">
+                                <img id="photos-style" src={Showcase2} />
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <img id="photos" src={Showcase3} />
+                            </div>
                         </div>
 
-                        <div class="col-md-4">
-                            <img id="photos" src={Showcase5} />
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img id="photos-style" src={Showcase4} />
+                            </div>
+
+                            <div class="col-md-4">
+                                <img id="photos" src={Showcase5} />
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <img id="photos-style" src={Showcase6} />
+                            </div>
                         </div>
 
 
-                        <div class="col-md-4">
-                            <img id="photos-style" src={Showcase6} />
-                        </div>
+
                     </div>
-
-
-
                 </div>
-            </div>
-        </>
-    )
 
+            </>
+        )
+    }
 }
 
 export default Gallery

@@ -59,7 +59,7 @@ class Content extends React.Component {
                       We are a multicultural preschool and we have an intercultural approach. This means that different cultures interact, complement and enrich each other. We have a well-resourced library at the preschool with some books in the children's mother tongue that our multilingual staff read to the children. The objective is to familiarise children with literature from many different cultures
                       The staff's language skills are also used to support communication with the children. We see interculturality in our preschool as an asset in education.
                     </p>
-                    <button class="btn-1"><i class="fa fa-more"></i> View more</button>
+                    <Link to="/About"><button class="btn-1"><i class="fa fa-more"></i>View more</button></Link>
                   </div>
 
                   <div class="col-md-6">
@@ -151,11 +151,12 @@ class Content extends React.Component {
           <div id="Programs" class="content1">
             <div class="container-fluid">
               <div class="container">
-                <h4 class="display-5">Our Programs</h4>
+                <h4 class="display-2">Our Programs</h4>
                 <center>
+                  <br />
                   <hr id="hr1" />
                 </center>
-                <p>Lorem Ipsum is simply dummy text  but also It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                <p className="textfont">Lorem Ipsum is simply dummy text  but also It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
                   but also It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with </p>
               </div>
             </div>
