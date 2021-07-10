@@ -45,7 +45,7 @@ class Content extends React.Component {
               <div class="container">
                 <center> <img class="rotate" src={Shape} /></center>
 
-                <h4 class="display-5"> About Us</h4>
+                <h4 class="display-5">About Us</h4>
                 <hr id="hr1" />
                 <div class="row">
                   <div class="col-md-6">

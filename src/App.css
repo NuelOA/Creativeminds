@@ -132,10 +132,11 @@ html body {
   height: 10vmin;
 }
 #show {
-  border: 11px double rgba(74, 89, 100, 0.535);
+  box-shadow: 3px 3px 5px rgba(47, 72, 85, 0.302);
+  /* border: 11px double rgba(74, 89, 100, 0.535); */
   height: 54vmin;
   width: 80vmin;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 #map {
@@ -217,7 +218,7 @@ label {
   width: 100%;
 }
 .App-header2 {
-  background-image: url("/src/Images/landingHead2.jpeg");
+  background-image: url("/src/Images/landingHead3.jpeg");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,6 +253,7 @@ label {
 .fa-whatsapp:hover {
   color: white !important;
   font-size: larger;
+  transition: 0.5s;
 }
 
 iframe {
@@ -441,7 +443,6 @@ button {
 .Imagecard3 {
   margin-top: 100px;
   border-radius: 20px;
-  opacity: 0.9;
   background-size: cover;
   background-image: url("../src/Images/showcase2.jpg");
   background-color: rgb(255, 255, 255);
@@ -457,7 +458,6 @@ button {
 .Imagecard {
   margin-top: 100px;
   border-radius: 20px;
-  opacity: 0.9;
   background-size: cover;
   background-image: url("../src/Images/showcase1.jpeg");
   background-color: rgb(255, 255, 255);
@@ -473,7 +473,6 @@ button {
 .card2 {
   margin-top: 100px;
   border-radius: 20px;
-  opacity: 0.9;
   background-color: rgb(255, 159, 34);
   box-shadow: 5px 5px 8px rgba(41, 69, 87, 0.823);
   border: none;
@@ -540,7 +539,7 @@ button {
 .btn-2 {
   background: none;
   color: rgb(255, 239, 239);
-  border: 1.5px solid rgba(235, 242, 247, 0.967);
+  border: 1.5px solid rgba(232, 233, 233, 0.515);
   font-family: "M PLUS Rounded 1c", sans-serif;
   border-radius: 100px;
   padding: 10px 25px 10px 25px;
@@ -616,8 +615,8 @@ a:hover {
 }
  */
 
-input {
-  float: right;
+.form-control {
+  border-radius: 20px;
 }
 .adform {
   color: rgb(54, 38, 38);
@@ -639,8 +638,8 @@ input {
 
 form {
   padding: 40px 30px 40px 30px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
+  border-radius: 30px;
+  box-shadow: 3px 2px 8px rgba(98, 117, 133, 0.289);
   background-color: rgba(255, 255, 255, 0.919);
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -733,7 +732,7 @@ nav {
 .fa-info,
 .fa-book,
 .fa-graduation-cap,
-.fa-phone {
+.fa-phone{
   visibility: hidden;
 }
 
@@ -756,10 +755,10 @@ nav {
   }
 
   #show {
-    border: 11px double rgba(74, 89, 100, 0.535);
+    /* border: 11px double rgba(74, 89, 100, 0.535); */
     height: 54vmin;
     width: 85vmin;
-    border-radius: 20px;
+    border-radius: 30px;
   }
   .App-header2 {
     background-image: url("/src/Images/landingHead3.jpeg");
@@ -804,8 +803,8 @@ nav {
   form {
     padding: 40px 30px 40px 30px;
     border-radius: 20px;
-    box-shadow: 5px 5px 8px rgba(189, 147, 147, 0.412);
-    background-color: rgba(252, 252, 252, 0.967);
+    box-shadow: 3px 2px 8px rgba(86, 105, 121, 0.412);
+    background-color: rgba(255, 255, 255, 0.967);
     text-align: center;
     font-family: "Nunito", sans-serif;
   }

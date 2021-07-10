@@ -5,7 +5,7 @@ import Showcase3 from '../Images/showcase1.jpeg'
 import Showcase4 from '../Images/landingHead2.jpeg'
 import Showcase5 from '../Images/showcase3.jpg'
 import Showcase6 from '../Images/showcase5.jpeg'
-
+import FadeIn from 'react-fade-in';
 
 class Gallery extends React.Component {
 
@@ -15,56 +15,58 @@ class Gallery extends React.Component {
     render() {
         return (
             <>
+                <FadeIn>
 
-                <header className="App-header2">
-                    <div class="container-fluid">
-                        <h3 id="gallery">Virtual Tour</h3>
-                    </div>
-                    <center>
-                        <a href="#photos"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
-                    </center>
-                </header>
-
-
-                <div class="photos-container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img id="photos" src={Showcase1} />
-                            </div>
-
-                            <div class="col-md-4">
-                                <img id="photos-style" src={Showcase2} />
-                            </div>
-
-
-                            <div class="col-md-4">
-                                <img id="photos" src={Showcase3} />
-                            </div>
+                    <header className="App-header2">
+                        <div class="container-fluid">
+                            <h3 id="gallery">Virtual Tour</h3>
                         </div>
+                        <center>
+                            <a href="#photos"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                        </center>
+                    </header>
 
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img id="photos-style" src={Showcase4} />
+                    <div class="photos-container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img id="photos" src={Showcase1} />
+                                </div>
+
+                                <div class="col-md-4">
+                                    <img id="photos-style" src={Showcase2} />
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    <img id="photos" src={Showcase3} />
+                                </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <img id="photos" src={Showcase5} />
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img id="photos-style" src={Showcase4} />
+                                </div>
+
+                                <div class="col-md-4">
+                                    <img id="photos" src={Showcase5} />
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    <img id="photos-style" src={Showcase6} />
+                                </div>
                             </div>
 
 
-                            <div class="col-md-4">
-                                <img id="photos-style" src={Showcase6} />
-                            </div>
+
                         </div>
-
-
-
                     </div>
-                </div>
-
+                </FadeIn>
             </>
+
         )
     }
 }

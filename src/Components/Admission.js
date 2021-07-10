@@ -131,7 +131,7 @@ class Admissions extends React.Component {
                         <option>Infant</option>
                         <option>Toddler</option>
                         <option>Preschool</option>
-                        <option>Kindergarten</option>
+                        {/* <option>Kindergarten</option> */}
                       </select>
                     </div>
 

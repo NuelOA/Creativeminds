@@ -19,7 +19,7 @@ class About extends React.Component {
                     <div class="container-fluid">
                         <div className="content">
                             <center>
-                                <h3 className="display-5"> Explore More</h3>
+                                <h3 className="display-5"> Explore More <br /> About Us</h3>
                             </center>
 
                             <br />
@@ -73,13 +73,15 @@ class About extends React.Component {
                                         <br />
                                         <Link to="/Gallery">   <button class="btn-1"><i class="fa fa-more"></i>Virtual Tour</button></Link>
                                     </div>
-
+                                    <i class="fa fa-facebook-f" aria-hidden="true"></i>
                                 </div>
                             </div>
 
 
 
                         </div>
+
+
                     </div>
 
                 </FadeIn>
