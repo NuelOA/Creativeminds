@@ -12,6 +12,7 @@ import Showcase3 from '../Images/showcase1.jpeg'
 import Showcase4 from '../Images/landingHead2.jpeg'
 import Showcase5 from '../Images/showcase3.jpg'
 import { Fade } from 'react-slideshow-image';
+import Map from '../Components/Map'
 import 'react-slideshow-image/dist/styles.css'
 
 
@@ -215,7 +216,7 @@ class Content extends React.Component {
 
 
 
-
+          <Map />
 
         </FadeIn>
 

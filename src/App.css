@@ -113,7 +113,6 @@
     font-size: 22px;
   }
 }
-
 html body {
   background-color: rgb(255, 255, 255);
   font-family: "Nunito" sans-serif;
@@ -218,7 +217,7 @@ label {
   width: 100%;
 }
 .App-header2 {
-  background-image: url("/src/Images/landingHead3.jpeg");
+  background-image: url("/src/Images/landingHead2.jpeg");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +226,7 @@ label {
   min-height: 100vh;
   width: 100%;
   align-items: center;
-  background: rgb(168, 70, 70);
+  border-bottom: 15px solid rgb(255, 255, 255);
   box-shadow:3px 8px 15px rgba(211, 211, 211, 0.672);
   border-radius: 0 0 50% 50% / 50px;
   justify-content: center;
@@ -361,6 +360,7 @@ button {
   flex-direction: column;
   font-family: "Nunito", sans-serif;
   /* text-align: center; */
+  color: white;
   
 }
 .card1:hover {
@@ -511,9 +511,13 @@ button {
   text-align: center;
   padding: 50px 30px 50px 30px;
 }
+
 .content1 {
   background-color: rgba(25, 38, 48, 0.967);
   padding-top: 50px;
+  background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode:multiply;
   color: white;
   padding-bottom: 180px;
   justify-content: center;
@@ -615,6 +619,12 @@ a:hover {
 }
  */
 
+ .map{
+   padding: 5px;
+   padding-bottom: 80px;
+   background-color: rgba(67, 90, 73, 0.967);
+ }
+
 .form-control {
   border-radius: 20px;
 }
@@ -642,10 +652,11 @@ form {
   box-shadow: 3px 2px 8px rgba(98, 117, 133, 0.289);
   background-color: rgba(255, 255, 255, 0.919);
   text-align: center;
+  margin-bottom: 100px;
   font-family: "Nunito", sans-serif;
 }
 #adHead {
-  margin-top: 50vh;
+  margin-top: 30vh;
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
@@ -946,7 +957,7 @@ nav {
     font-size: 25px;
   }
   #adHead {
-    margin-top: 40vh;
+    margin-top: 30vh;
     text-align: center;
     font-family: "Nunito", sans-serif;
   }

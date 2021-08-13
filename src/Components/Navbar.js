@@ -54,8 +54,8 @@ class Navbar extends React.Component {
               <li class="nav-item"><Link class="nav-link" to="/Admission"> <i class="fa fa-graduation-cap " aria-hidden="true"></i><span class="item-label"> Admission</span> </Link></li>
               {/* <li class="nav-item"><a class="nav-link" href="/Tour"><i class="fa fa-picture-o" aria-hidden="true"></i><span class="item-label"> Gallery </span> </a></li> */}
               <li class="nav-item"><a class="nav-link" href="/#Contact"><i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i><span class="item-label"> Contact </span> </a></li>
-
-              <li class="nav-item" ><a class="nav-link" href="https://formspree.io/login"><i class="fa fa-user" aria-hidden="true"></i><span class="item-label" id="admin"> Admin </span> </a></li>
+              <li class="nav-item" ><Link class="nav-link" to="/Admin"><i class="fa fa-user" aria-hidden="true"></i><span class="item-label" id="admin"> Login </span> </Link></li>
+              {/* <li class="nav-item" ><a class="nav-link" href="https://formspree.io/login"><i class="fa fa-user" aria-hidden="true"></i><span class="item-label" id="admin"> Admin </span> </a></li> */}
 
 
 

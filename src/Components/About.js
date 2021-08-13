@@ -1,7 +1,7 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom'
-
+import Map from '../Components/Map'
 
 
 
@@ -60,7 +60,7 @@ class About extends React.Component {
                                         <br />
                                         <br />
                                         <br />
-                                        <h3 className="display-6">   FOOD AND HEALTH </h3>
+                                        <h3 className="display-6"> Food And Health </h3>
 
                                         We have lunch catering from our own kitchen, serving hot, good and freshly cooked food and fruits to us every day. We offer equivalent special diets for those who need them.
                                         We care about the children's health and about laying the foundation for developing healthy eating habits and a healthy attitude to physical activity in every child.
@@ -83,6 +83,8 @@ class About extends React.Component {
 
 
                     </div>
+
+                    <Map />
 
                 </FadeIn>
             </>
